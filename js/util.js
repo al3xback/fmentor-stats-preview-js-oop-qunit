@@ -48,7 +48,7 @@ class Card extends Component {
 
 		const cardImageEl = this.createElement('img', null, null, [
 			this.createElementAttribute('src', './images/meeting.jpg'),
-			this.createElementAttribute('alt', ''),
+			this.createElementAttribute('alt', 'People at a meeting'),
 		]);
 
 		cardImageInnerEl.appendChild(cardImageEl);
